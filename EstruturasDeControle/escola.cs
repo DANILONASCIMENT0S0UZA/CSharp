@@ -5,23 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.EstruturasDeControle {
-    class EstruturaIf {
-        public static void Executar(){
-
+    class escola {
+        public static void Executar() {
             Console.WriteLine("Qual foi a 1° nota?");
-            int nota1 = int.Parse(Console.ReadLine());
+            double nota1 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Qual foi a 2° nota?");
-            int nota2 = int.Parse(Console.ReadLine());
+            double nota2 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Qual foi a 3° nota?");
-            int nota3 = int.Parse(Console.ReadLine());
+            double nota3 = double.Parse(Console.ReadLine());
 
-            int media = (nota1 + nota2 + nota3) / 3;
+            double media = (nota1 + nota2 + nota3) / 3;
 
-            if (media >= 7) { 
+            if (media >= 7) {
                 Console.WriteLine("O aluno esta APROVADO :)");
-            } else { 
+            } else if (media >= 5 && media < 7) {
+                Console.WriteLine("O aluno esta de RECUPERAÇÃO :|");
+            }else{
                 Console.WriteLine("O aluno esta REPROVADO :(");
             }
         }

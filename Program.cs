@@ -18,7 +18,11 @@ namespace CursoCSharp {
                 {"Exercicio 3 - Fundamentos ",exercicioTres.Executar},
                 {"Operadores Relacionais - Fundamentos",OperadoresRelacionais.Executar },
                 {"Operadores Aribuição - Fundamentos",OperadoresAribuicao.Executar },
-                {"IF - Fundamentos",EstruturaIf.Executar },
+                {"IF - Estrutura de Controle",EstruturaIf.Executar },
+                {"IF e Else - Estrutura de Controle",IFandELSE.Executar },
+                {"Senha - Estrutura de Controle",Senha.Executar },
+                {"Escola - Estrutura de Controle",escola.Executar },
+                {"IMC - Estrutura de Controle",IMC.Executar },
             });
 
             central.SelecionarEExecutar();
