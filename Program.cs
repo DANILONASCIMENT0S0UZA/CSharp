@@ -23,6 +23,9 @@ namespace CursoCSharp {
                 {"Senha - Estrutura de Controle",Senha.Executar },
                 {"Escola - Estrutura de Controle",escola.Executar },
                 {"IMC - Estrutura de Controle",IMC.Executar },
+                {"Estrutura Switch - Estrutura de Controle",EstruturaSwitch.Executar },
+                 {"DDD - Estrutura de Controle",DDD.Executar },
+                 {"Estrutura While e For - Estrutura de Controle",EstruturaWhileEFor.Executar },
             });
 
             central.SelecionarEExecutar();
