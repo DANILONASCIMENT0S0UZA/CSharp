@@ -27,9 +27,11 @@ namespace CursoCSharp {
                 {"Estrutura Switch - Estrutura de Controle",EstruturaSwitch.Executar },
                  {"DDD - Estrutura de Controle",DDD.Executar },
                  {"Estrutura While e For - Estrutura de Controle",EstruturaWhileEFor.Executar },
+                {"Estrutura de Foreach - Estrutura de Controle",EstruturaForeach.Executar },
                  {"While - Estrutura de Repetição", @while.Executar },
                  {"Contador - Estrutura de Repetição", contador.Executar },
                  {"Tabuada - Estrutura de Repetição", Tabuada.Executar },
+                 
             });
 
             central.SelecionarEExecutar();
