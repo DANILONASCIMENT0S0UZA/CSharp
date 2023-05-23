@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
-using CursoCSharp.EstruturaRepeticao;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -19,6 +19,8 @@ namespace CursoCSharp {
                 {"Exercicio 3 - Fundamentos ",exercicioTres.Executar},
                 {"Operadores Relacionais - Fundamentos",OperadoresRelacionais.Executar },
                 {"Operadores Aribuição - Fundamentos",OperadoresAribuicao.Executar },
+
+
                 {"IF - Estrutura de Controle",EstruturaIf.Executar },
                 {"IF e Else - Estrutura de Controle",IFandELSE.Executar },
                 {"Senha - Estrutura de Controle",Senha.Executar },
@@ -28,10 +30,14 @@ namespace CursoCSharp {
                  {"DDD - Estrutura de Controle",DDD.Executar },
                  {"Estrutura While e For - Estrutura de Controle",EstruturaWhileEFor.Executar },
                 {"Estrutura de Foreach - Estrutura de Controle",EstruturaForeach.Executar },
-                 {"While - Estrutura de Repetição", @while.Executar },
-                 {"Contador - Estrutura de Repetição", contador.Executar },
-                 {"Tabuada - Estrutura de Repetição", Tabuada.Executar },
-                 
+                 {"While - Estrutura de Controle", @while.Executar },
+                 {"Contador - Estrutura de Controle", contador.Executar },
+                 {"Tabuada - Estrutura de Controle", Tabuada.Executar },
+
+
+                 {"Membros - Classes e Métodos", Membros.Executar },
+                 {"Jogo - Classes e Métodos", Jogo.Executar },
+
             });
 
             central.SelecionarEExecutar();

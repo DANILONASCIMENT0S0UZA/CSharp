@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturaRepeticao {
+namespace CursoCSharp.EstruturasDeControle {
     class Tabuada {
 
         public static void Executar() {
