@@ -20,6 +20,7 @@ namespace CursoCSharp {
                 {"Operadores Relacionais - Fundamentos",OperadoresRelacionais.Executar },
                 {"Operadores Aribuição - Fundamentos",OperadoresAribuicao.Executar },
 
+                  //-------------------------------------------------------------------------
 
                 {"IF - Estrutura de Controle",EstruturaIf.Executar },
                 {"IF e Else - Estrutura de Controle",IFandELSE.Executar },
@@ -34,9 +35,16 @@ namespace CursoCSharp {
                  {"Contador - Estrutura de Controle", contador.Executar },
                  {"Tabuada - Estrutura de Controle", Tabuada.Executar },
 
+                 //-------------------------------------------------------------------------
 
                  {"Membros - Classes e Métodos", Membros.Executar },
                  {"Jogo - Classes e Métodos", Jogo.Executar },
+                 {"Construtores - Classes e Métodos", Construtores.Executar },
+                 {"Metodos com Retorno - Classes e Métodos", MetodosComRetorno.Executar },
+                 {"Conveter Reais Para Dolar - Classes e Métodos", ConveterRD.Executar },
+                 {"Conveter  Celsius para Fahrenheit - Classes e Métodos", ConveterGraus.Executar },
+
+
 
             });
 
