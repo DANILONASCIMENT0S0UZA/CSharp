@@ -16,18 +16,15 @@ namespace CursoCSharp.ClassesEMetodos {
             }
 
         }
-
         public static void Executar() {
-
-            
 
             var CF = new ConverterG();
 
             Console.WriteLine("Digite o valor em celsius!");
             double celsius  = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor em fahrenheit!");
-            Console.WriteLine(CF.Grau(celsius).ToString("#,##"));
+            Console.WriteLine("Esse é o valor em fahrenheit!");
+            Console.WriteLine(CF.Grau(celsius));
         }
     }
 }

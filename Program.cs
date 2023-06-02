@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -43,7 +44,17 @@ namespace CursoCSharp {
                  {"Metodos com Retorno - Classes e Métodos", MetodosComRetorno.Executar },
                  {"Conveter Reais Para Dolar - Classes e Métodos", ConveterRD.Executar },
                  {"Conveter  Celsius para Fahrenheit - Classes e Métodos", ConveterGraus.Executar },
+                 {"Metodos Estaticos - Classes e Métodos", MetodosEstaticos.Executar },
+                 {"Params - Classes e Métodos", Params.Executar},
+                 {"Get e Set - Classes e Métodos", GetSet.Executar},
+                 {"Get e Set 2º exemplo - Classes e Métodos", GetSet2.Executar},
+                 {"Nota - Classes e Métodos", Nota.Executar},
+                 {"Registro - Classes e Métodos", Nai.Executar},
+                  {"Animal - Classes e Métodos", Animais.Executar},
 
+                 //-------------------------------------------------------------------------
+                 {"Array - Coleções", Arrays.Executar},
+                 {"Queue - Coleções", Queue.Executar},
 
 
             });

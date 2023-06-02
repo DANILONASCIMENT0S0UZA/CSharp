@@ -11,7 +11,7 @@ namespace CursoCSharp.ClassesEMetodos {
 
             public double RD(double reais,double dolar) {
 
-                return reais *  dolar;
+                return reais / dolar;
            
             }
             
@@ -26,7 +26,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Console.WriteLine("Digite o valor!");
             double reais = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(RDS.RD(reais,dolar).ToString("#,##"));
+            Console.WriteLine(RDS.RD(reais,dolar));
         }
     }
 }
