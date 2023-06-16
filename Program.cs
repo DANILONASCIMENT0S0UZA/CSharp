@@ -5,6 +5,8 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -62,8 +64,19 @@ namespace CursoCSharp {
                   {"Herança - POO", Heranca.Executar},
                   {" Construtor This - POO", ConstrutorThis.Executar},
                   {" Encapsulamento - POO", POO.Encapsulamento.Executar},
+                  {" Polimorfismo - POO", POO. Polimorfismo.Executar},
+                  {" Atividade - POO", POO.Atividade.Executar},
+                  {" Abstração - POO", POO.Abstract.Executar},
+                  {" Sealed - POO", Sealed.Executar},
 
+                  //---------------------------------------------------------------------------------
 
+                  {" Lambda - Metodos e Funções", lambda.Executar},
+                  {"Atividade Lambda - Metodos e Funções", AtividadeLam.Executar},
+
+                  //-------------------------------------------------------------------------------------------
+
+                  {"Primeira Exceção - Exceções",PrimeiraExcecao.Executar},
 
             });
 
